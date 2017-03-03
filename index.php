@@ -19,7 +19,9 @@
 |
 */
 
-require __DIR__.'/../bootstrap/autoload.php';
+// require __DIR__.'/../bootstrap/autoload.php';
+// move to framework dir
+require __DIR__.'/framework/bootstrap/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
@@ -33,7 +35,9 @@ require __DIR__.'/../bootstrap/autoload.php';
 |
 */
 
-$app = require_once __DIR__.'/../bootstrap/app.php';
+// $app = require_once __DIR__.'/../bootstrap/app.php';
+// move to framework dir
+$app = require_once __DIR__.'/framework/bootstrap/app.php';
 
 /*
 |--------------------------------------------------------------------------
